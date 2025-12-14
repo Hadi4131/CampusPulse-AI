@@ -1,0 +1,68 @@
+TechSprint Hackathon 2025 - Demo Video Script (2-3 Minutes)
+Project: CampusPulse AI
+
+Goal: Showcase the AI analysis, Real-time Dashboard, and Privacy features.
+
+--------------------------------------------------------------------------------
+SCENE 1: INTRO (0:00 - 0:30)
+--------------------------------------------------------------------------------
+[Visual]: Start with a slide or the Landing Page. Facecam in corner (optional).
+[Action]: 
+"Hi, we are Team [Name]. In a busy campus, student voices get lost. Safety issues get buried in hundreds of 'Wi-Fi is slow' emails. 
+Introducing CampusPulse AI: An intelligent platform that uses Google Gemini to listen, analyze, and prioritize student feedback in real-time."
+
+--------------------------------------------------------------------------------
+SCENE 2: THE STUDENT EXPERIENCE (0:30 - 1:00)
+--------------------------------------------------------------------------------
+[Visual]: Login Screen.
+[Action]: Click "Sign Up". Enter email. Show "Set Username" screen.
+[Voiceover]: 
+"Privacy is key. We implemented a 'Username' system so students can report issues without fear. Let's sign up as a new student."
+
+[Visual]: Complaint Form (The Popover).
+[Action]: Type a messy complaint: "hey the wires in the chem lab are sparking and it smells like burning plastic im scared."
+[Voiceover]: 
+"Students often report in a panic. Watch what happens when I submit this unstructured text."
+[Action]: Click Submit. Show the "Analyzing..." loader.
+
+--------------------------------------------------------------------------------
+SCENE 3: THE AI ANALYSIS (1:00 - 1:30)
+--------------------------------------------------------------------------------
+[Visual]: Show the result popup/card.
+[Action]: Highlight the extracted fields with your mouse.
+[Voiceover]: 
+"Using the Gemini API, our system instantly analyzes the text.
+1. It detected High Urgency.
+2. It categorized it as 'Safety Hazard'.
+3. It even summarized the issue and suggested an action: 'Evacuate area and call maintenance'. 
+All this happens in milliseconds."
+
+--------------------------------------------------------------------------------
+SCENE 4: THE ADMIN DASHBOARD (1:30 - 2:10)
+--------------------------------------------------------------------------------
+[Visual]: Switch to the Admin Dashboard (already logged in on another tab).
+[Action]: Show the new complaint appearing at the top of the 'Recent Activity' list (thanks to Firestore real-time sync).
+[Voiceover]: 
+"Now, let's look at the Admin view. Without refreshing the page, the new complaint appears instantly."
+
+[Action]: Use the Filter Dropdown to select "High Urgency".
+[Voiceover]: 
+"Admins are busy. With our 'Coffee Shop' themed dashboard, they can filter by 'High Urgency' to see only critical risks. No more digging through emails."
+
+[Action]: Hover over the Pie Chart.
+[Voiceover]: 
+"They also get a visual breakdown of campus health, seeing exactly which categories need attention."
+
+--------------------------------------------------------------------------------
+SCENE 5: CONCLUSION (2:10 - 2:30)
+--------------------------------------------------------------------------------
+[Visual]: Back to Title Slide / GitHub Repo.
+[Voiceover]: 
+"CampusPulse AI turns noise into actionable data. By leveraging Google Gemini and Firebase, we ensure that every student is heard and every campus is safe.
+Check out our code on GitHub. Thank you!"
+
+--------------------------------------------------------------------------------
+TIPS FOR RECORDING:
+1. Clear your browser history/cache so the demo looks clean.
+2. Have the Admin Dashboard open in an Incognito window so you can alt-tab between Student and Admin views quickly.
+3. Zoom in your browser to 110% or 125% so the text is massive and readable on video.
