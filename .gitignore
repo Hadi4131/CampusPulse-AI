@@ -1,0 +1,26 @@
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+__pycache__/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+
+# Environment Variables
+.env
+backend/.env
+frontend/.env
+*.env
+
+# Firebase & Secrets
+serviceAccountKey.json
+campuspulse-ai-3e4ed-firebase-adminsdk-fbsvc-29a9f95543.json
+firebase-debug.log
+
+# System
+.DS_Store
+Thumbs.db
